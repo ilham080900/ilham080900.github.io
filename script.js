@@ -25,3 +25,7 @@ for (const link of links) {
         link.classList.add('active');
     });
   }
+
+  AOS.init({
+    duration: 800,
+  });

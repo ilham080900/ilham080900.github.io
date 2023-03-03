@@ -45,7 +45,7 @@ h5 {
 .bi:hover {
   transform: scale(1.1);
   filter: grayscale(0%);
-  background-color: #e2edff;
+  background-color: lightblue;
 }
 
 .navbar-brand {
@@ -113,41 +113,15 @@ span {
 .iskill {
   margin-right: 20px;
   margin-top: 20px;
-  filter: grayscale(100%);
+  filter: opacity(60%);
   transition: 500ms;
 }
 
 .iskill:hover {
-  filter: grayscale(0%);
+  filter: opacity(100%);
   transform: scale(1.3);
 }
 
-.design {
-  width: 400px;
-  height: 200px;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  margin-right: -13px !important;
-}
-
-.frontend {
-  width: 400px;
-  height: 200px;
-  border-left-style: solid;
-  border-bottom-style: solid;
-  color: grey;
-  margin-left: -14px !important;
-}
-
-.backend {
-  width: 400px;
-  height: 200px;
-  border-right-style: solid;
-  border-top-style: solid;
-  color: grey;
-  margin-right: -13px !important;
-  margin-top: -19px;
-}
 
 span h3 {
   color: black;
@@ -155,4 +129,68 @@ span h3 {
 
 span h5 {
   color: black;
+}
+
+.btndownload {
+  transition: all ease 0.5s;
+}
+
+.btndownload:hover {
+  transform: scale(1.1);
+}
+
+/* web */
+@media only screen and (min-width: 601px) {
+  
+  .frontend {
+    width: 400px;
+    height: 200px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    color: lightblue;
+    margin-left: -14px !important;
+    margin-top: -19px;
+  }
+  
+  .backend {
+    width: 400px;
+    height: 200px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    color: lightblue;
+    margin-right: -13px !important;
+    margin-top: -19px;
+  }
+
+  .design {
+    width: 400px;
+    height: 200px;
+    margin-right: -13px !important;
+  }
+}
+
+/* hp */
+@media only screen and (max-width: 600px) {
+  .iskill{
+   margin: 0;
+  filter: grayscale(100%);
+  transition: 500ms;
+  }
+
+  .frontend {
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+    color: grey;
+  }
+  
+  .backend {
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+    color: grey;
+  }
+
+  .design{
+    margin-top: -20px;
+  }
+
 }
