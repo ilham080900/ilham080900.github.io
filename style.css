@@ -1,0 +1,196 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1 .display-5 {
+  font-weight: bold;
+}
+
+h5 {
+  padding-top: 1rem;
+  color: rgb(7, 150, 245);
+}
+
+.active {
+  border-bottom: solid;
+}
+
+.icon {
+  position: relative;
+}
+
+.tombol {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  transition: 250ms;
+  border-color: aqua;
+  border-bottom: solid;
+}
+
+.tombol .bi {
+  transition: 250ms;
+  color: rgb(7, 150, 245);
+}
+
+.tombol:hover,
+.bi:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  background-color: lightblue;
+}
+
+.navbar-brand {
+  font-family: "fw-bolder";
+}
+
+h2 {
+  color: rgb(7, 150, 245);
+}
+
+.row {
+  padding-top: 1rem;
+}
+
+#Project {
+  background-color: #e2edff;
+}
+
+footer {
+  background-color: rgb(10, 168, 241);
+  text-align: center;
+  color: white;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.active {
+  border-bottom: solid;
+}
+
+.ikon {
+  position: relative;
+}
+
+.tomboll {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  transition: 180ms;
+  border-color: aqua;
+}
+
+.tomboll .bi {
+  transition: 150ms;
+  color: white;
+}
+
+.tomboll:hover,
+.bi:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  background-color: lightblue;
+}
+
+span {
+  color: #f5cb12;
+}
+
+#Skill h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.iskill {
+  margin-right: 20px;
+  margin-top: 20px;
+  filter: opacity(60%);
+  transition: 500ms;
+}
+
+.iskill:hover {
+  filter: opacity(100%);
+  transform: scale(1.3);
+}
+
+
+span h3 {
+  color: black;
+}
+
+span h5 {
+  color: black;
+}
+
+.btndownload {
+  transition: all ease 0.5s;
+}
+
+.btndownload:hover {
+  transform: scale(1.1);
+}
+
+/* web */
+@media only screen and (min-width: 601px) {
+  
+  .frontend {
+    width: 400px;
+    height: 200px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    color: lightblue;
+    margin-left: -14px !important;
+    margin-top: -19px;
+  }
+  
+  .backend {
+    width: 400px;
+    height: 200px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    color: lightblue;
+    margin-right: -13px !important;
+    margin-top: -19px;
+  }
+
+  .design {
+    width: 400px;
+    height: 200px;
+    margin-right: -13px !important;
+  }
+}
+
+/* hp */
+@media only screen and (max-width: 600px) {
+  .iskill{
+   margin: 0;
+  filter: grayscale(100%);
+  transition: 500ms;
+  }
+
+  .frontend {
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+    color: grey;
+  }
+  
+  .backend {
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+    color: grey;
+  }
+
+  .design{
+    margin-top: -20px;
+  }
+
+}
